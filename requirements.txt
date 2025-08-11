@@ -1,4 +1,3 @@
 mkdocs
-mkdocs-terminal
-mkdocs-jupyter
- https://vocus.cc/article/64ece8b7fd89780001e2a560
+mkdocs-material
+markdown-include
