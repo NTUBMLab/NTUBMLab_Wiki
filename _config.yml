@@ -17,7 +17,7 @@ lang: en-US
 title: My Awesome Site
 email:
 description:
-baseurl: ""
+baseurl: /NTUBMLab_Wiki
 url: https://ntubmlab.github.io/NTUBMLab_Wiki/
 author:
   name:
