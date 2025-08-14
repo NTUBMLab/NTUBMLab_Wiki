@@ -8,9 +8,6 @@ copyright: Copyright &copy; 2014 <a href="https://twitter.com/_tomchristie">Tom 
 theme:
     name: bootstrap
 
-nav:
-    - Home: index.md
-
 markdown_extensions:
   - pymdownx.arithmatex:
       generic: true 
