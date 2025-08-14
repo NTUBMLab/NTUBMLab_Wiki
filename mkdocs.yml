@@ -1,13 +1,21 @@
+site_name: MkDocs Bootstrap Theme
+site_url: http://mkdocs.github.io/mkdocs-bootstrap/
+site_description: MkDocs Bootstrap Theme
+site_author: Tom Christie & Dougal Matthews
+
+repo_url: https://ntubmlab.github.io/NTUBMLab_Wiki/
+
+copyright: Copyright &copy; 2014 <a href="https://twitter.com/_tomchristie">Tom Christie</a>, <a href="http://www.dougalmatthews.com/">Dougal Matthews</a>.
+
 theme:
-  name: readthedocs
-  highlightjs: true
-  hljs_languages:
-    - yaml
-    - rust
+    name: bootstrap
+
+nav:
+    - Home: index.md
 
 markdown_extensions:
   - pymdownx.arithmatex:
-      generic: true
+      generic: true 
 
 extra_javascript:
   - javascripts/mathjax.js
