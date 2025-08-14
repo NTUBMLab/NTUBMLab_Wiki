@@ -1,6 +1,9 @@
-theme: 
-  name: terminal
-  palette: dark
+theme:
+  name: readthedocs
+  highlightjs: true
+  hljs_languages:
+    - yaml
+    - rust
 
 markdown_extensions:
   - pymdownx.arithmatex:
