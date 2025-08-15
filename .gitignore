@@ -1,0 +1,6 @@
+*.pyc
+dist/
+build/
+mkdocs_bootstrap.egg-info/
+site/
+venv/
