@@ -51,3 +51,9 @@ jobs:
         if: success()
         run: |
           python -m mkdocs gh-deploy --clean --verbose
+          
+      - name: Install MkDocs and plugins
+        run: |
+          pip install mkdocs 
+          mkdocs-codeinclude-plugin 
+          mkdocs-bootstrap
