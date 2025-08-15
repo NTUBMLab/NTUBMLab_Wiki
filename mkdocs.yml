@@ -1,11 +1,10 @@
 site_name: MkDocs Bootstrap Theme
-site_url: http://mkdocs.github.io/mkdocs-bootstrap/
-site_description: MkDocs Bootstrap Theme
-site_author: Tom Christie & Dougal Matthews
+site_url: https://ntubmlab.github.io/NTUBMLab_Wiki/
+site_description: Ntubmlab Webwiki Bootstrap Theme
+site_author: William(here to suffer)
 
-repo_url: https://github.com/mkdocs/mkdocs-bootstrap
+repo_url: https://ntubmlab.github.io/NTUBMLab_Wiki/
 
-copyright: Copyright &copy; 2014 <a href="https://twitter.com/_tomchristie">Tom Christie</a>, <a href="http://www.dougalmatthews.com/">Dougal Matthews</a>.
 
 theme:
     name: bootstrap
