@@ -21,7 +21,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install mkdocs mkdocs-material # 在這裡安裝主題
+          pip install mkdocs mkdocs-bootstrap
 
       - name: Deploy to GitHub Pages
         run: |
