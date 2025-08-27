@@ -1,123 +1,58 @@
----
-layout: default
----
+這是腦心實驗室的Wiki，希望能在這裡統整了我們實驗室的資源，讓大家參考 :blush: :blush:
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+**重要**：
 
-[Link to another page](./another-page.html).
+(1) 關於這個GitLab Group的使用注意事項，請先看過[這份筆記](https://gitlab.com/brain-and-mind-lab/this-gitlab-guideline)
 
-There should be whitespace between paragraphs.
+(2) 使用git的技巧，請見[這份教學文件](https://gitlab.com/brain-and-mind-lab/notes-for-bml/notes-for-git)，並大力推薦這門Coursera的git入門課程：[Version Control with Git](https://www.coursera.org/learn/version-control-with-git/home/info)。
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+(3) 新生請在開學前先看過[新生文件](https://gitlab.com/brain-and-mind-lab/notes-for-bml/bmlab-wiki-home/-/wikis/Operations/Orientation/Welcome)
 
-# Header 1
+# 目錄 Table of Content
+* [BMLab Wiki Home](https://gitlab.com/brain-and-mind-lab/notes-for-bml/bmlab-wiki-home/-/wikis/Operations/BML-Requirements)現已被移至[Home](https://gitlab.com/brain-and-mind-lab/notes-for-bml/bmlab-wiki-home/-/wikis/home)
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+## Operations
 
-## Header 2
+* [Administration](https://gitlab.com/brain-and-mind-lab/notes-for-bml/bmlab-wiki-home/-/wikis/Operations/Administration)
+* [BML Requirements](https://gitlab.com/brain-and-mind-lab/notes-for-bml/bmlab-wiki-home/-/wikis/Operations/BML-Requirements)
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+### Orientation
 
-### Header 3
+* [Welcome](https://gitlab.com/brain-and-mind-lab/notes-for-bml/bmlab-wiki-home/-/wikis/Operations/Orientation/Welcome)
+* [Orientation](https://gitlab.com/brain-and-mind-lab/notes-for-bml/bmlab-wiki-home/-/wikis/Operations/Orientation/Orientation)
+* [Coding & Statistics](https://gitlab.com/brain-and-mind-lab/notes-for-bml/bmlab-wiki-home/-/wikis/Operations/Orientation/Coding-&-Statistics)
+* [Subject Recruitment](https://gitlab.com/brain-and-mind-lab/notes-for-bml/bmlab-wiki-home/-/wikis/Operations/Orientation/Subject-Recruitment)
+* [Experiment](https://gitlab.com/brain-and-mind-lab/notes-for-bml/bmlab-wiki-home/-/wikis/Operations/Orientation/Experiment)
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+### Blood
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+* [GWAS](https://gitlab.com/brain-and-mind-lab/notes-for-bml/bmlab-wiki-home/-/wikis/Operations/Blood/GWAS)
+* [SNPs](https://gitlab.com/brain-and-mind-lab/notes-for-bml/bmlab-wiki-home/-/wikis/Operations/Blood/SNPs)
 
-#### Header 4
+### Servers
+* [BML-Servers-Info](https://gitlab.com/brain-and-mind-lab/notes-for-bml/bmlab-wiki-home/-/wikis/Operations/Servers/BML-Servers-Info)
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+## Data Analysis
 
-##### Header 5
+* [Creating SPM with MATLAB](https://gitlab.com/brain-and-mind-lab/notes-for-bml/bmlab-wiki-home/-/wikis/Data-Analysis/Creating-SPM-batch-with-MATLAB)
+* [ERP single subject data processing tutorial](https://gitlab.com/brain-and-mind-lab/notes-for-bml/bmlab-wiki-home/-/wikis/Data-Analysis/ERP-single-subject-data-processing-tutorial)
+* [SPM cookbook](https://gitlab.com/brain-and-mind-lab/notes-for-bml/bmlab-wiki-home/-/wikis/Data-Analysis/SPM-cookbook)
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
+### fMRI Functional Connectivity
 
-###### Header 6
+* [fMRI Functional Connectivity Data Analysis](https://gitlab.com/brain-and-mind-lab/notes-for-bml/bmlab-wiki-home/-/wikis/Data-Analysis/fMRI-Functional-Connectivity/fMRI-Functional-Connectivity-Data-Analysis)
+* [fMRI Functional Connectivity Data Preprocessing](https://gitlab.com/brain-and-mind-lab/notes-for-bml/bmlab-wiki-home/-/wikis/Data-Analysis/fMRI-Functional-Connectivity/fMRI-Functional-Connectivity-Data-Preprocessing)
 
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
+## Academics
 
-### There's a horizontal rule below this.
+* [Research](https://gitlab.com/brain-and-mind-lab/notes-for-bml/bmlab-wiki-home/-/wikis/Academics/Research)
+* [Study Abroad](https://gitlab.com/brain-and-mind-lab/notes-for-bml/bmlab-wiki-home/-/wikis/Academics/Study-abroad)
 
-* * *
+## [Data](#http://140.112.123.8/BMLab_DB/)
 
-### Here is an unordered list:
+[Database Web](http://140.112.123.8/BMLab_DB/)
 
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
+Allow IP only from: 140.112.121.218, 192.168.123.133, 192.168.123.129, 192.168.123.130, 192.168.123.131, 192.168.123.140
 
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+- 帳號：BMLab
+- 密碼：萬用密碼
